@@ -1,0 +1,14 @@
+{
+ "name": "sample-node-app",
+ "version": "1.0.0",
+ "description": "Sample Node.js app for Jenkins CI/CD on Kali",
+ "main": "app.js",
+ "engines": { "node": ">=22" },
+ "scripts": {
+ "start": "node app.js",
+ "test": "node --test tests/app.test.js"
+ },
+ "dependencies": {
+ "express": "^4.19.0"
+ }
+}
